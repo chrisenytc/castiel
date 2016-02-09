@@ -1,0 +1,49 @@
+{
+	"name": "castiel",
+	"version": "0.1.0",
+	"description": "A powerful framework stack for building fast and safe APIs with Node.js",
+	"scripts": {
+		"start": "./bin/server",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/chrisenytc/castiel.git"
+	},
+	"keywords": [
+		"framework",
+		"stack",
+		"api",
+		"webservices",
+		"simple",
+		"powerful"
+	],
+	"author": {
+        "name": "Christopher EnyTC",
+        "email": "chrisenytc@gmail.com",
+        "url": "https://github.com/chrisenytc"
+    },
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/chrisenytc/castiel/issues"
+	},
+	"homepage": "https://github.com/chrisenytc/castiel#readme",
+	"dependencies": {
+		"babel": "^5.8.21",
+		"babel-runtime": "^5.8.20",
+		"bluebird": "^3.2.1",
+		"body-parser": "^1.14.2",
+		"bunyan": "^1.5.1",
+		"commander": "^2.9.0",
+		"express": "^4.13.4",
+		"express-bunyan-logger": "^1.2.0",
+		"express-session": "^1.13.0",
+		"helmet": "^1.1.0",
+		"hpp": "^0.2.0",
+		"lodash": "^4.2.1",
+		"method-override": "^2.3.5",
+		"nbundler": "^1.0.1",
+		"request-id": "^0.10.0",
+		"response-time": "^2.3.1"
+	}
+}
